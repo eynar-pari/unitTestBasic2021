@@ -10,6 +10,13 @@ public class Cajero {
         this.saldo = saldo;
     }
 
+    // PASO1
+    public Cajero(int saldo, BDUtil dbUtil, ClientDB clientDB) {
+        this.saldo = saldo;
+        this.dbUtil = dbUtil;
+        this.clientDB = clientDB;
+    }
+
     public String getCash(int ci, int amount) {
 
         if (clientDB.isConnectionSuccessfully("mysql")) {
@@ -22,11 +29,9 @@ public class Cajero {
             } else {
                 msg = "Usted no tiene suficiente saldo";
             }
-        } else
-
-    {
-        msg = "Conexion a BD no fue satisfactoria";
-    }
+        } else {
+            msg = "Conexion a BD no fue satisfactoria";
+        }
         return msg;
-}
+    }
 }

@@ -12,7 +12,19 @@ Si el saldo es insuficiente se muestra un mensaje "Usted no tiene suficiente sal
 el mensaje que se muestra es "Conexion a BD no fue satisfactoria"
 
 
+
 1) Crear los test cases en unit test
 2) Encontrar los casos faltantes mientras se crea el test coverage
-3) convertir los metodos en estaticos y realizar sus test (extra)
 
+---------------------
+TEST COVERAGE       |
+---------------------
+
+amount
+  |--------------|----------------------|
+0 1 2      -1  saldo/2 +1     saldo-1  saldo saldo+1
+
+dbconnection true/false
+updateDB  true/false
+
+*** que pasa cuando el saldo es menor a <1
