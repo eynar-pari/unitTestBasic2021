@@ -1,8 +1,0 @@
-Se tiene un metodo que valida si un CI es correcto o incorrecto
-
-si este es correcto el valor retornado : true
-si este es incorrecto el valor retornado : false
-
-si el valor es vacio lanza una excepcion, si el valor no es numerico lanza otra excepcion, si el valor es 0 lanza una exception
-
-● 5% unit test utilizando: expected (2 test) and timeout (1 test)

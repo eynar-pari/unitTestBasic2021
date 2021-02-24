@@ -1,9 +1,0 @@
-Se tiene un metodo para calcular la nota cualitativa en base a la nota cuantitativa evaluada en 10
-si la nota esta entre 0 y 5 el mensaje es "F"
-si la nota esta entre 5 y 7 el mensaje es "C"
-si la nota esta entre 7 y 9 el mensaje es "B"
-si la nota esta entre 9 y 10 el mensaje es "A"
-si esta fuera de rango : "VALOR INCORRECTO"
-
-●  5% crear unit tests parametrizado (usando el boundary test sobre 1-10), adicione mas casos si es necesario
-
